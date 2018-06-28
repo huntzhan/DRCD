@@ -1,3 +1,7 @@
+# Introduction
+
+Converted data to Hans.
+
 # Delta Reading Comprehension Dataset 
 台達閱讀理解資料集 Delta Reading Comprehension Dataset (DRCD) 屬於通用領域繁體中文機器閱讀理解資料集。
 本資料集期望成為適用於遷移學習之標準中文閱讀理解資料集。
