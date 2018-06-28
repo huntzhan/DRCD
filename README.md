@@ -2,7 +2,18 @@
 
 Converted data to Hans.
 
-# Delta Reading Comprehension Dataset 
+```
+.
+├── README.md
+├── hans
+│   ├── DRCD_dev.json
+│   └── DRCD_training.json
+├── hant
+│   ├── DRCD_dev.json
+│   └── DRCD_training.json
+```
+
+# Delta Reading Comprehension Dataset
 台達閱讀理解資料集 Delta Reading Comprehension Dataset (DRCD) 屬於通用領域繁體中文機器閱讀理解資料集。
 本資料集期望成為適用於遷移學習之標準中文閱讀理解資料集。
 本資料集從2,108篇維基條目中整理出10,014篇段落，並從段落中標註出30,000多個問題
@@ -28,7 +39,7 @@ For more information please refer to Paper https://arxiv.org/abs/1806.00920
         - id : <String> : "1"表示為人工標註的答案，"2"以上為人工答題的答案
         - text : <string> : 答案內容
 ## Example
-  
+
   ```json
 {
   "version": "1.3",
@@ -141,7 +152,7 @@ For more information please refer to Paper https://arxiv.org/abs/1806.00920
     }
   ]
 }
-  
+
   ```
 ## Copyright Notice 版權聲明
 
@@ -150,7 +161,7 @@ For more information please refer to Paper https://arxiv.org/abs/1806.00920
 CC-BY-SA 3.0相關條款請參考以下連結
 http://creativecommons.org/licenses/by-sa/3.0/
 
-## Contact us 聯繫我們 
+## Contact us 聯繫我們
 
 - 資料所有： <a href="http://www.deltaww.com/about/innovation_ch.aspx?secID=5&amp;pid=4&amp;tid=0&amp;hl=zh-TW">台達研究院Delta Research Center</a>
 - Email: <a href="mailto:cchieh.shao@deltaww.com">cchieh.shao@deltaww.com</a>
