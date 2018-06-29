@@ -134,7 +134,7 @@ def t2s_squad_data(json_in, json_out):
     )
 
     with open(json_out, 'w') as fout:
-        json.dump(data, fout)
+        json.dump(data, fout, ensure_ascii=False)
 
 
 parser = argparse.ArgumentParser()
