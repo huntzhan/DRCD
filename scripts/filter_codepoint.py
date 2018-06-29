@@ -35,4 +35,4 @@ with open(args.hans_in) as fin:
 
 
 with open(args.hans_out, 'w') as fout:
-        json.dump(data, fout)
+        json.dump(data, fout, ensure_ascii=False)
